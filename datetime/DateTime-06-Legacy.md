@@ -824,22 +824,14 @@ Calendar cal = GregorianCalendar.from(
 
 ### 📚 전체 시리즈
 
-| Chapter | 주제 |
-|:-------:|------|
-| [01. Time API 개요](./DateTime-01-개요.md) | 레거시 문제점, 신규 API 소개 |
-| [02. Local 클래스](./DateTime-02-Local.md) | LocalDate, LocalTime, LocalDateTime |
-| [03. Zoned & Instant](./DateTime-03-Zoned.md) | ZonedDateTime, Instant, 시간대 |
-| [04. Period & Duration](./DateTime-04-Period.md) | 날짜 기간, 시간 기간, ChronoUnit |
+|                       Chapter                       | 주제 |
+|:---------------------------------------------------:|------|
+|       [01. Time API 개요](./DateTime-01-개요.md)        | 레거시 문제점, 신규 API 소개 |
+|       [02. Local 클래스](./DateTime-02-Local.md)       | LocalDate, LocalTime, LocalDateTime |
+|    [03. Zoned & Instant](./DateTime-03-Zoned.md)    | ZonedDateTime, Instant, 시간대 |
+|  [04. Period & Duration](./DateTime-04-Period.md)   | 날짜 기간, 시간 기간, ChronoUnit |
 | [05. DateTimeFormatter](./DateTime-05-Formatter.md) | 포맷팅, 파싱, 로케일 |
-| [06. 레거시 vs 신규](./DateTime-06-Legacy.md) ⭐ | 마이그레이션 가이드 |
-
-<br/>
-
-**다음 학습 추천**
-
-💡 [Collections Framework 바로가기](../collections/) *(예정)*  
-💡 [IO & 입출력 바로가기](../io/) *(예정)*  
-💡 [Arrays 시리즈 바로가기](../arrays/)
+|      [06. 레거시 vs 신규](./DateTime-06-Legacy.md)       | 마이그레이션 가이드 |
 
 </div>
 

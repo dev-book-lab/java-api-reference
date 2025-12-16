@@ -954,11 +954,11 @@ factorial(100), fibonacci(1000), RSA 암호화
 
 ### 📚 전체 시리즈
 
-| Chapter | 주제 |
-|:-------:|------|
-| [01. Math 클래스](./Math-01-Math클래스.md) | 수학 연산, 삼각함수, 난수 |
-| [02. Wrapper 클래스](./Math-02-Wrapper.md) | Integer, Double, Boxing |
-| [03. BigInteger & BigDecimal](./Math-03-Big.md) ⭐ | 큰 수, 정확한 실수 |
+|                     Chapter                      | 주제 |
+|:------------------------------------------------:|------|
+|       [01. Math 클래스](./Math-01-Math클래스.md)       | 수학 연산, 삼각함수, 난수 |
+|     [02. Wrapper 클래스](./Math-02-Wrapper.md)      | Integer, Double, Boxing |
+| [03. BigInteger & BigDecimal](./Math-03-Big.md)  | 큰 수, 정확한 실수 |
 
 </div>
 

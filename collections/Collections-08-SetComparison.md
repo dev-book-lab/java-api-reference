@@ -769,12 +769,12 @@ Set<Integer> sorted = new TreeSet<>();
 
 ### 📚 Set 시리즈
 
-| Chapter | 주제 |
-|:-------:|------|
-| [05. HashSet](./Collections-05-HashSet.md) | 해시 기반 집합 |
+|                        Chapter                         | 주제 |
+|:------------------------------------------------------:|------|
+|       [05. HashSet](./Collections-05-HashSet.md)       | 해시 기반 집합 |
 | [06. LinkedHashSet](./Collections-06-LinkedHashSet.md) | 순서 유지 집합 |
-| [07. TreeSet](./Collections-07-TreeSet.md) | 정렬된 집합 |
-| [08. Set 비교](./Collections-08-SetComparison.md) ⭐ | 성능, 선택 가이드 |
+|       [07. TreeSet](./Collections-07-TreeSet.md)       | 정렬된 집합 |
+|    [08. Set 비교](./Collections-08-SetComparison.md)     | 성능, 선택 가이드 |
 
 </div>
 
