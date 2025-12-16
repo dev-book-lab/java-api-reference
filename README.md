@@ -17,9 +17,9 @@ Java 입출력의 모든 것 - BufferedReader부터 File 처리까지
 ### 🔹 [String & 문자열](./string/)
 문자열 처리의 핵심 - String, StringBuilder, 그리고 실전 패턴
 
-- [01. 기본 개념 (Immutable & Intern Pool)](./string/01-기본개념.md)
-- [02. 생성과 비교](./string/02-생성과비교.md)
-- [03. 검색과 인덱싱](./string/03-검색과인덱싱.md)
+- [01. 기본 개념 (Immutable & Intern Pool)](./string/String-01-기본개념.md)
+- [02. 생성과 비교](./string/String-02-생성과비교.md)
+- [03. 검색과 인덱싱](./string/String-03-검색과인덱싱.md)
 - [04. 변환과 치환](./string/04-변환과치환.md) *(예정)*
 - [05. 분리와 결합](./string/05-분리와결합.md) *(예정)*
 - [06. StringBuilder & StringBuffer](./string/06-StringBuilder-StringBuffer.md) *(예정)*
