@@ -116,21 +116,19 @@
 
 수학 연산의 모든 것 - Math, Wrapper, BigInteger
 
-<table width="100%"> <tr>
+<table width="100%">
+<tr>
 <td width="50%">
 
 **🔢 Math 클래스**
-- 01. **[기본 연산](./math/01-기본연산.md)**
-- 02. **[삼각함수와 지수로그](./math/02-삼각함수.md)**
-- 03. **[난수와 특수 함수](./math/03-난수.md)**
+- 01. **[Math 클래스](./math/Math-01-Math클래스.md)**
 
 </td>
 <td width="50%">
 
 **🎁 Number 클래스**
-- 04. **[Wrapper 클래스](./math/04-Wrapper.md)**
-- 05. **[BigInteger & BigDecimal](./math/05-BigInteger.md)**
-- 06. **[형변환과 파싱](./math/06-형변환.md)**
+- 02. **[Wrapper 클래스](./math/Math-02-Wrapper.md)**
+- 03. **[BigInteger & BigDecimal](./math/Math-03-Big.md)**
 
 </td>
 </tr>
@@ -155,13 +153,13 @@
 
 ### 🔹 IO & 입출력
 
-Java 입출력의 모든 것 - 스트림부터 파일 처리까지
+Java 입출력의 모든 것 - 파일 제어부터 텍스트/바이너리 처리까지
 
-|                         Chapter                          | 주제 | 핵심 키워드 |
-|:--------------------------------------------------------:|------|------------|
-| **01. [InputStream & OutputStream](./io/IO-01-File.md)** | 바이트 스트림 | read, write, close |
-|      **02. [Reader & Writer](./io/IO-02-Text.md)**       | 문자 스트림 | 인코딩, 문자 처리 |
-| **03. [BufferedReader & Writer](./io/IO-03-Binary.md)**  | 버퍼링 | 성능 최적화, readLine |
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **01. [File 기본](./io/IO-01-File.md)** | 파일 시스템 다루기 | File, Path, Files |
+| **02. [텍스트 파일 입출력](./io/IO-02-Text.md)** | 문자 스트림 (Reader/Writer) | BufferedReader, 인코딩 |
+| **03. [바이트 스트림](./io/IO-03-Binary.md)** | 바이너리 & 객체 직렬화 | BufferedStream, Serializable |
 
 <br/>
 
@@ -231,24 +229,6 @@ cd java-api-reference
 | 🎯 **연습 문제** | 학습 내용 확인 |
 | ⚡ **성능 비교** | 여러 방법의 성능 측정 |
 | 📌 **핵심 정리** | 빠른 복습용 요약 |
-
----
-
-## 📊 진행 상황
-
-<div align="center">
-
-| Category | Status | Progress |
-|:--------:|:------:|:--------:|
-| **String** | ✅ 완료 | ![100%](https://progress-bar.dev/100) |
-| **Collections** | 🚧 예정 | ![0%](https://progress-bar.dev/0) |
-| **Arrays** | 🚧 예정 | ![0%](https://progress-bar.dev/0) |
-| **Math** | 🚧 예정 | ![0%](https://progress-bar.dev/0) |
-| **Date & Time** | 🚧 예정 | ![0%](https://progress-bar.dev/0) |
-| **IO** | 🚧 예정 | ![0%](https://progress-bar.dev/0) |
-| **Utils** | 🚧 예정 | ![0%](https://progress-bar.dev/0) |
-
-</div>
 
 ---
 
