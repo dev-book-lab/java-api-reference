@@ -1049,4 +1049,14 @@ if ("Hello".equals(str)) { }  // str이 null이어도 OK
 
 ---
 
-**다음 문서:** [String 03. 검색과 인덱싱](String-03-검색과인덱싱.md)
+<div align="center">
+
+**[⬆ 목차로 돌아가기](../README.md)**
+
+</div>
+
+<div align="center">
+
+**[← 이전: 01. 기본 개념](./String-01-기본개념.md) | [다음: 03. 검색과 인덱싱 →](./String-03-검색과인덱싱.md)**
+
+</div>

@@ -919,4 +919,14 @@ str.replaceAll("\\.", "*");  // 정규식에서 . 이스케이프
 
 ---
 
-**다음 문서:** [String 05. 분리와 결합](String-05-분리와결합.md)
+<div align="center">
+
+**[⬆ 목차로 돌아가기](../README.md)**
+
+</div>
+
+<div align="center">
+
+**[← 이전: 03. 검색과 인덱싱](./String-03-검색과인덱싱.md) | [다음: 05. 분리와 결합 →](./String-05-분리와결합.md)**
+
+</div>

@@ -1027,4 +1027,14 @@ if (str.equals("text")) { }           // 내용 비교
 
 ---
 
-**다음 문서:** [String 04. 변환과 치환](./String-04-변환과치환.md)
+<div align="center">
+
+**[⬆ 목차로 돌아가기](../README.md)**
+
+</div>
+
+<div align="center">
+
+**[← 이전: 02. 생성과 비교](./String-02-생성과비교.md) | [다음: 04. 변환과 치환 →](./String-04-변환과치환.md)**
+
+</div>

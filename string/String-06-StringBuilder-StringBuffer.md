@@ -938,4 +938,14 @@ String str = sb.toString();
 
 ---
 
-**다음 문서:** [String 07. 실전 패턴](String-07-실전패턴.md)
+<div align="center">
+
+**[⬆ 목차로 돌아가기](../README.md)**
+
+</div>
+
+<div align="center">
+
+**[← 이전: 05. 분리와 결합](./String-05-분리와결합.md) | [다음: 07. 실전 패턴 →](./String-07-실전패턴.md)**
+
+</div>

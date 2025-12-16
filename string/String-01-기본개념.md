@@ -692,4 +692,14 @@ if (s1 == s3) { }  // == 사용 (거의 항상 틀림)
 
 ---
 
-**다음 문서:** [String 02. 생성과 비교](String-02-생성과비교.md)
+<div align="center">
+
+**[⬆ 목차로 돌아가기](../README.md)**
+
+</div>
+
+<div align="center">
+
+**[다음: 02. 생성과 비교 →](./String-02-생성과비교.md)**
+
+</div>

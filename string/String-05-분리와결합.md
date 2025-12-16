@@ -946,4 +946,14 @@ Arrays.stream(parts).filter(s -> !s.isEmpty())
 
 ---
 
-**다음 문서:** [String 06. StringBuilder & StringBuffer](String-06-StringBuilder-StringBuffer.md)
+<div align="center">
+
+**[⬆ 목차로 돌아가기](../README.md)**
+
+</div>
+
+<div align="center">
+
+**[← 이전: 04. 변환과 치환](./String-04-변환과치환.md) | [다음: 06. StringBuilder & StringBuffer →](./String-06-StringBuilder-StringBuffer.md)**
+
+</div>
