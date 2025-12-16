@@ -913,14 +913,6 @@ String.join(",", list)  // + 연결보다 빠름
 | [06. StringBuilder & StringBuffer](./String-06-StringBuilder-StringBuffer.md) | 가변 문자열 처리 |
 | [07. 실전 패턴](./String-07-실전패턴.md) ⭐ | 알고리즘과 실무 패턴 |
 
-<br/>
-
-**다음 학습 추천**
-
-💡 [Collections Framework 바로가기](../collections/) *(예정)*  
-💡 [Arrays 바로가기](../arrays/) *(예정)*  
-💡 [Math & Number 바로가기](../math/) *(예정)*
-
 </div>
 
 ---

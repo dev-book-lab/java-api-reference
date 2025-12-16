@@ -159,12 +159,11 @@
 
 Java 입출력의 모든 것 - 스트림부터 파일 처리까지
 
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **01. [InputStream & OutputStream](./io/01-InputStream.md)** *(예정)* | 바이트 스트림 | read, write, close |
-| **02. [Reader & Writer](./io/02-Reader.md)** *(예정)* | 문자 스트림 | 인코딩, 문자 처리 |
-| **03. [BufferedReader & Writer](./io/03-Buffered.md)** *(예정)* | 버퍼링 | 성능 최적화, readLine |
-| **04. [File & Path](./io/04-File.md)** *(예정)* | 파일 처리 | NIO.2, Files 클래스 |
+|                         Chapter                          | 주제 | 핵심 키워드 |
+|:--------------------------------------------------------:|------|------------|
+| **01. [InputStream & OutputStream](./io/IO-01-File.md)** | 바이트 스트림 | read, write, close |
+|      **02. [Reader & Writer](./io/IO-02-Text.md)**       | 문자 스트림 | 인코딩, 문자 처리 |
+| **03. [BufferedReader & Writer](./io/IO-03-Binary.md)**  | 버퍼링 | 성능 최적화, readLine |
 
 <br/>
 
