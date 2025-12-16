@@ -66,31 +66,31 @@
 <td width="50%">
 
 **📋 List**
-- 01. [Collections 개요](./collections/Collections-01-Overview.md)
-- 02. [ArrayList](./collections/Collections-02-ArrayList.md)
-- 03. [LinkedList](./collections/Collections-03-LinkedList.md)
-- 04. [List 비교와 선택](./collections/Collections-04-ListComparison.md)
+- 01. **[Collections 개요](./collections/Collections-01-Overview.md)**
+- 02. **[ArrayList](./collections/Collections-02-ArrayList.md)**
+- 03. **[LinkedList](./collections/Collections-03-LinkedList.md)**
+- 04. **[List 비교와 선택](./collections/Collections-04-ListComparison.md)**
 
 **🎯 Set**
-- 05. [HashSet](./collections/Collections-05-HashSet.md)
-- 06. [LinkedHashSet](./collections/Collections-06-LinkedHashSet.md)
-- 07. [TreeSet](./collections/Collections-07-TreeSet.md)
-- 08. [Set 비교와 선택](./collections/Collections-08-SetComparison.md)
+- 05. **[HashSet](./collections/Collections-05-HashSet.md)**
+- 06. **[LinkedHashSet](./collections/Collections-06-LinkedHashSet.md)**
+- 07. **[TreeSet](./collections/Collections-07-TreeSet.md)**
+- 08. **[Set 비교와 선택](./collections/Collections-08-SetComparison.md)**
 
 </td>
 <td width="50%">
 
 **🗺️ Map**
-- 09. [HashMap](./collections/Collections-09-HashMap.md) *(예정)*
-- 10. [LinkedHashMap](./collections/Collections-10-LinkedHashMap.md) *(예정)*
-- 11. [TreeMap](./collections/Collections-11-TreeMap.md) *(예정)*
-- 12. [Map 비교와 선택](./collections/Collections-12-MapComparison.md) *(예정)*
+- 09. **[HashMap](./collections/Collections-09-HashMap.md)**
+- 10. **[LinkedHashMap](./collections/Collections-10-LinkedHashMap.md)**
+- 11. **[TreeMap](./collections/Collections-11-TreeMap.md)**
+- 12. **[Map 비교와 선택](./collections/Collections-12-MapComparison.md)**
 
 **📤 Queue & Stack**
-- 13. [Queue & Deque](./collections/Collections-13-Queue-Deque.md) *(예정)*
-- 14. [PriorityQueue](./collections/Collections-14-PriorityQueue.md) *(예정)*
-- 15. [Stack](./collections/Collections-15-Stack.md) *(예정)*
-- 16. [Collections 유틸](./collections/Collections-16-Utils.md) *(예정)*
+- 13. **[Queue & Deque](./collections/Collections-13-Queue-Deque.md)**
+- 14. **[PriorityQueue](./collections/Collections-14-PriorityQueue.md)**
+- 15. **[Stack](./collections/Collections-15-Stack.md)**
+- 16. **[Collections 유틸](./collections/Collections-16-Utils.md)**
 
 </td>
 </tr>
@@ -122,17 +122,17 @@
 <td width="50%">
 
 **🔢 Math 클래스**
-- 01. [기본 연산](./math/01-기본연산.md) *(예정)*
-- 02. [삼각함수와 지수로그](./math/02-삼각함수.md) *(예정)*
-- 03. [난수와 특수 함수](./math/03-난수.md) *(예정)*
+- 01. **[기본 연산](./math/01-기본연산.md)**
+- 02. **[삼각함수와 지수로그](./math/02-삼각함수.md)**
+- 03. **[난수와 특수 함수](./math/03-난수.md)**
 
 </td>
 <td width="50%">
 
 **🎁 Number 클래스**
-- 04. [Wrapper 클래스](./math/04-Wrapper.md) *(예정)*
-- 05. [BigInteger & BigDecimal](./math/05-BigInteger.md) *(예정)*
-- 06. [형변환과 파싱](./math/06-형변환.md) *(예정)*
+- 04. **[Wrapper 클래스](./math/04-Wrapper.md)**
+- 05. **[BigInteger & BigDecimal](./math/05-BigInteger.md)**
+- 06. **[형변환과 파싱](./math/06-형변환.md)**
 
 </td>
 </tr>
