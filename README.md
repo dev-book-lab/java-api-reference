@@ -61,8 +61,7 @@
 
 자료구조의 완성 - List, Set, Map, Queue의 모든 것
 
-<table>
-<tr>
+<table width="100%"> <tr>
 <td width="50%">
 
 **📋 List**
@@ -117,8 +116,7 @@
 
 수학 연산의 모든 것 - Math, Wrapper, BigInteger
 
-<table>
-<tr>
+<table width="100%"> <tr>
 <td width="50%">
 
 **🔢 Math 클래스**
