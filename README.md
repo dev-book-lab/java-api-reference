@@ -116,23 +116,11 @@
 
 수학 연산의 모든 것 - Math, Wrapper, BigInteger
 
-<table width="100%">
-<tr>
-<td width="50%">
-
-**🔢 Math 클래스**
-- 01. **[Math 클래스](./math/Math-01-Math클래스.md)**
-
-</td>
-<td width="50%">
-
-**🎁 Number 클래스**
-- 02. **[Wrapper 클래스](./math/Math-02-Wrapper.md)**
-- 03. **[BigInteger & BigDecimal](./math/Math-03-Big.md)**
-
-</td>
-</tr>
-</table>
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **01. [Math 클래스](./math/Math-01-Math클래스.md)** | 기본 수학 연산과 난수 | abs, pow, sqrt, random, round |
+| **02. [Wrapper 클래스](./math/Math-02-Wrapper.md)** | 기본 타입의 객체화 | Integer, valueOf, parseInt, Boxing |
+| **03. [BigInteger & BigDecimal](./math/Math-03-Big.md)** | 대용량 및 정밀 연산 | BigInteger, BigDecimal, 정밀도 |
 
 <br/>
 
