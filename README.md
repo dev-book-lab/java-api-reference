@@ -61,39 +61,37 @@
 
 자료구조의 완성 - List, Set, Map, Queue의 모든 것
 
-<table width="100%"> <tr>
-<td width="50%">
+#### 📋 List Interface (순서가 있는 저장 공간)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **01. [Collections 개요](./collections/Collections-01-Overview.md)** | 프레임워크 전체 구조 | Collection, Iterable, 계층 구조 |
+| **02. [ArrayList](./collections/Collections-02-ArrayList.md)** | 동적 배열 구현 | add, get, resize, 성능 |
+| **03. [LinkedList](./collections/Collections-03-LinkedList.md)** | 이중 연결 리스트 | addFirst, removeLast, Node |
+| **04. [List 비교와 선택](./collections/Collections-04-ListComparison.md)** | 상황별 List 선택 가이드 | 조회 vs 삽입/삭제, 성능 비교 |
 
-**📋 List**
-- 01. **[Collections 개요](./collections/Collections-01-Overview.md)**
-- 02. **[ArrayList](./collections/Collections-02-ArrayList.md)**
-- 03. **[LinkedList](./collections/Collections-03-LinkedList.md)**
-- 04. **[List 비교와 선택](./collections/Collections-04-ListComparison.md)**
+#### 🎯 Set Interface (중복 없는 집합)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **05. [HashSet](./collections/Collections-05-HashSet.md)** | 중복 없는 데이터 집합 | hashCode, equals, 유일성 |
+| **06. [LinkedHashSet](./collections/Collections-06-LinkedHashSet.md)** | 순서가 있는 Set | 입력 순서 보장, LRU 캐시 |
+| **07. [TreeSet](./collections/Collections-07-TreeSet.md)** | 정렬된 Set | 이진 탐색 트리, 범위 검색 |
+| **08. [Set 비교와 선택](./collections/Collections-08-SetComparison.md)** | 상황별 Set 선택 가이드 | 정렬 필요성, 입력 순서 |
 
-**🎯 Set**
-- 05. **[HashSet](./collections/Collections-05-HashSet.md)**
-- 06. **[LinkedHashSet](./collections/Collections-06-LinkedHashSet.md)**
-- 07. **[TreeSet](./collections/Collections-07-TreeSet.md)**
-- 08. **[Set 비교와 선택](./collections/Collections-08-SetComparison.md)**
+#### 🗺️ Map Interface (키-값 쌍 저장)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **09. [HashMap](./collections/Collections-09-HashMap.md)** | 키-값 쌍 데이터 저장 | put, get, 해시 충돌, 버킷 |
+| **10. [LinkedHashMap](./collections/Collections-10-LinkedHashMap.md)** | 순서가 있는 Map | 삽입 순서, 접근 순서 |
+| **11. [TreeMap](./collections/Collections-11-TreeMap.md)** | 정렬된 Map | 키 기준 정렬, NavigableMap |
+| **12. [Map 비교와 선택](./collections/Collections-12-MapComparison.md)** | 상황별 Map 선택 가이드 | 키 정렬, 순서 보장 여부 |
 
-</td>
-<td width="50%">
-
-**🗺️ Map**
-- 09. **[HashMap](./collections/Collections-09-HashMap.md)**
-- 10. **[LinkedHashMap](./collections/Collections-10-LinkedHashMap.md)**
-- 11. **[TreeMap](./collections/Collections-11-TreeMap.md)**
-- 12. **[Map 비교와 선택](./collections/Collections-12-MapComparison.md)**
-
-**📤 Queue & Stack**
-- 13. **[Queue & Deque](./collections/Collections-13-QueueDeque.md)**
-- 14. **[PriorityQueue](./collections/Collections-14-PriorityQueue.md)**
-- 15. **[Stack](./collections/Collections-15-Stack.md)**
-- 16. **[Collections 유틸](./collections/Collections-16-CollectionsUtil.md)**
-
-</td>
-</tr>
-</table>
+#### 📤 Queue & Utils (대기열 및 보조 도구)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **13. [Queue & Deque](./collections/Collections-13-QueueDeque.md)** | 대기열 처리 자료구조 | offer, poll, peek, FIFO |
+| **14. [PriorityQueue](./collections/Collections-14-PriorityQueue.md)** | 우선순위 큐 | 힙(Heap), 우선순위 정렬 |
+| **15. [Stack](./collections/Collections-15-Stack.md)** | LIFO 자료구조 | push, pop, Vector 상속 문제 |
+| **16. [Collections 유틸](./collections/Collections-16-CollectionsUtil.md)** | 컬렉션 보조 도구 | sort, binarySearch, synchronized |
 
 <br/>
 
