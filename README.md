@@ -41,10 +41,10 @@
 
 > 💡 **각 챕터를 클릭하면 상세한 학습 문서로 이동합니다**
 
-### 🔹 String & 문자열
+### 🔹 1. 기초 다지기 (Basics)
+가장 기본이 되는 문자열과 숫자, 그리고 배열을 다룹니다.
 
-문자열 처리의 핵심 - String, StringBuilder, 그리고 실전 패턴
-
+#### 🔤 String & 문자열
 | Chapter | 주제 | 핵심 키워드 |
 |:-------:|------|------------|
 | **[01. 기본 개념](./string/String-01-기본개념.md)** | Immutable & String Pool | 불변성, intern(), 메모리 구조 |
@@ -55,11 +55,45 @@
 | **[06. StringBuilder & StringBuffer](./string/String-06-StringBuilder-StringBuffer.md)** | 가변 문자열 처리 | 성능 최적화, 동기화 |
 | **[07. 실전 패턴](./string/String-07-실전패턴.md)** | 알고리즘과 실무 패턴 | 팰린드롬, 검증, 파싱, 최적화 |
 
+#### 🔢 Math & Number
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **01. [Math 클래스](./math/Math-01-Math클래스.md)** | 기본 수학 연산과 난수 | abs, pow, sqrt, random, round |
+| **02. [Wrapper 클래스](./math/Math-02-Wrapper.md)** | 기본 타입의 객체화 | Integer, valueOf, parseInt, Boxing |
+| **03. [BigInteger & BigDecimal](./math/Math-03-Big.md)** | 대용량 및 정밀 연산 | BigInteger, BigDecimal, 정밀도 |
+
+#### 📦 Arrays (배열)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **01. [배열 기본](./arrays/Arrays-01-배열기본.md)** | 배열과 Arrays 클래스 | 선언, 초기화, 기본 연산 |
+| **02. [정렬](./arrays/Arrays-02-정렬.md)** | sort, parallelSort | Comparator, 성능 비교 |
+| **03. [검색](./arrays/Arrays-03-검색.md)** | binarySearch | 이진 탐색 활용 |
+| **04. [비교와 복사](./arrays/Arrays-04-비교와복사.md)** | equals, copyOf | 깊은 복사, 얕은 복사 |
+| **05. [변환](./arrays/Arrays-05-변환.md)** | stream, asList | 배열 ↔ List 변환 |
+| **06. [다차원 배열](./arrays/Arrays-06-다차원배열.md)** | 2D, 3D 배열 | deepEquals, deepToString |
+
 <br/>
 
-### 🔹 Collections Framework
+### 🔹 2. 타입 안전성과 객체지향 (Type Safety)
+자료구조를 배우기 전 필수적인 타입 시스템을 익힙니다.
 
-자료구조의 완성 - List, Set, Map, Queue의 모든 것
+#### 🛡️ Generics (제네릭)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **[01. Generics Basic](./generics/Generics-01-Basic.md)** | 제네릭 클래스와 메서드 기초 | `<T>`, Bounded Type, Type Erasure |
+| **[02. Wildcard & PECS](./generics/Generics-02-Wildcard.md)** | 와일드카드와 유연성 설계 | `<?>`, `extends`, `super`, PECS 공식 |
+
+#### 🚦 Enum (열거형)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **[01. Enum Basic](./enum/Enum-01-Basic.md)** | 열거형 기초와 특징 | enum, values(), valueOf() |
+| **[02. Enum Advanced](./enum/Enum-02-Advanced.md)** | 상수별 동작 구현과 싱글톤 | abstract method, Singleton Pattern |
+| **[03. Enum Patterns](./enum/Enum-03-Patterns.md)** | 실전 활용 패턴과 최적화 | Strategy Pattern, EnumMap, EnumSet |
+
+<br/>
+
+### 🔹 3. 자료구조 (Collections Framework)
+List, Set, Map, Queue의 모든 것을 다룹니다.
 
 #### 📋 List Interface (순서가 있는 저장 공간)
 | Chapter | 주제 | 핵심 키워드 |
@@ -95,37 +129,30 @@
 
 <br/>
 
-### 🔹 Arrays
+### 🔹 4. 모던 자바와 데이터 처리 (Modern Java)
+Java 8 이후 도입된 함수형 프로그래밍과 데이터 처리 기법입니다.
 
-배열 처리의 달인 - Arrays 클래스 완전 활용
-
+#### 🚀 Lambda & Functional Interface (람다)
 | Chapter | 주제 | 핵심 키워드 |
 |:-------:|------|------------|
-| **01. [배열 기본](./arrays/Arrays-01-배열기본.md)** | 배열과 Arrays 클래스 | 선언, 초기화, 기본 연산 |
-| **02. [정렬](./arrays/Arrays-02-정렬.md)** | sort, parallelSort | Comparator, 성능 비교 |
-| **03. [검색](./arrays/Arrays-03-검색.md)** | binarySearch | 이진 탐색 활용 |
-| **04. [비교와 복사](./arrays/Arrays-04-비교와복사.md)** | equals, copyOf | 깊은 복사, 얕은 복사 |
-| **05. [변환](./arrays/Arrays-05-변환.md)** | stream, asList | 배열 ↔ List 변환 |
-| **06. [다차원 배열](./arrays/Arrays-06-다차원배열.md)** | 2D, 3D 배열 | deepEquals, deepToString |
+| **[01. Functional Interface](./lambda/Lambda-01-FunctionalInterface.md)** | 람다식과 표준 인터페이스 | Consumer, Supplier, Function, Predicate |
+| **[02. Method Reference](./lambda/Lambda-02-MethodReference.md)** | 메서드 참조와 생성자 참조 | `Class::method`, `new::` |
+| **[03. Custom Lambda](./lambda/Lambda-03-Custom.md)** | 커스텀 인터페이스와 변수 포획 | @FunctionalInterface, Variable Capture |
+
+#### 🛠️ Modern Data Utilities (Stream & Optional)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **[01. Comparator & Comparable](./utils/Util-01-Comparator.md)** | 정렬과 비교 기준 | compare, compareTo, thenComparing |
+| **[02. Stream API](./utils/Util-02-Stream.md)** | 데이터 처리 파이프라인 | filter, map, collect, reduce |
+| **[03. Optional](./utils/Util-03-Optional.md)** | Null 안전 처리 | ofNullable, orElse, isPresent |
+| **[04. 정규표현식](./utils/Util-04-Regex.md)** | 텍스트 패턴 매칭 | Pattern, Matcher, regex |
 
 <br/>
 
-### 🔹 Math & Number
+### 🔹 5. 실무 필수 API (Practical APIs)
+비즈니스 로직과 시스템 제어에 필수적인 API입니다.
 
-수학 연산의 모든 것 - Math, Wrapper, BigInteger
-
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **01. [Math 클래스](./math/Math-01-Math클래스.md)** | 기본 수학 연산과 난수 | abs, pow, sqrt, random, round |
-| **02. [Wrapper 클래스](./math/Math-02-Wrapper.md)** | 기본 타입의 객체화 | Integer, valueOf, parseInt, Boxing |
-| **03. [BigInteger & BigDecimal](./math/Math-03-Big.md)** | 대용량 및 정밀 연산 | BigInteger, BigDecimal, 정밀도 |
-
-<br/>
-
-### 🔹 Date & Time
-
-날짜와 시간의 마스터 - Java 8 Time API
-
+#### 📅 Date & Time (날짜와 시간)
 | Chapter | 주제 | 핵심 키워드 |
 |:-------:|------|------------|
 | **01. [Time API 개요](./datetime/DateTime-01-개요.md)** | Java 8 Time API | LocalDate, ZonedDateTime |
@@ -135,12 +162,7 @@
 | **05. [포맷팅](./datetime/DateTime-05-Formatter.md)** | DateTimeFormatter | 날짜 포맷 변환 |
 | **06. [레거시 vs 신규](./datetime/DateTime-06-Legacy.md)** | Date, Calendar 비교 | 마이그레이션 가이드 |
 
-<br/>
-
-### 🔹 IO & 입출력
-
-Java 입출력의 모든 것 - 파일 제어부터 텍스트/바이너리 처리까지
-
+#### 💾 IO & 입출력
 | Chapter | 주제 | 핵심 키워드 |
 |:-------:|------|------------|
 | **01. [File 기본](./io/IO-01-File.md)** | 파일 시스템 다루기 | File, Path, Files |
@@ -149,96 +171,21 @@ Java 입출력의 모든 것 - 파일 제어부터 텍스트/바이너리 처리
 
 <br/>
 
-### 🔹 기타 유틸리티
+### 🔹 6. 심화 학습 (Advanced)
+가장 난이도가 높고 주의가 필요한 동시성 프로그래밍입니다.
 
-실무 필수 도구들 - Comparator, Stream, Optional, Regex
-
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **01. [Comparator & Comparable](./utils/Util-01-Comparator.md)** | 정렬과 비교 기준 | compare, compareTo, thenComparing |
-| **02. [Stream API](./utils/Util-02-Stream.md)** | 데이터 처리 파이프라인 | filter, map, collect, reduce |
-| **03. [Optional](./utils/Util-03-Optional.md)** | Null 안전 처리 | ofNullable, orElse, isPresent |
-| **04. [정규표현식](./utils/Util-04-Regex.md)** | 텍스트 패턴 매칭 | Pattern, Matcher, regex |
-
----
-
-### 🔹 Generics (제네릭)
-타입 안정성과 코드 재사용성을 극대화하는 기법
-
-#### 🟢 기초 (Basic)
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **[01. Generics Basic](./generics/Generics-01-Basic.md)** | 제네릭 클래스와 메서드 기초 | `<T>`, Bounded Type, Type Erasure |
-
-#### 🔴 심화 (Advanced)
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **[02. Wildcard & PECS](./generics/Generics-02-Wildcard.md)** | 와일드카드와 유연성 설계 | `<?>`, `extends`, `super`, PECS 공식 |
-
-<br>
-
-### 🔹 Enum (열거형)
-단순 상수를 넘어선 강력한 객체지향 상수 패턴
-
-#### 🟢 기초 (Basic)
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **[01. Enum Basic](./enum/Enum-01-Basic.md)** | 열거형 기초와 특징 | enum, values(), valueOf() |
-
-#### 🔴 심화 (Advanced)
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **[02. Enum Advanced](./enum/Enum-02-Advanced.md)** | 상수별 동작 구현과 싱글톤 | abstract method, Singleton Pattern |
-| **[03. Enum Patterns](./enum/Enum-03-Patterns.md)** | 실전 활용 패턴과 최적화 | Strategy Pattern, EnumMap, EnumSet |
-
-<br>
-
-### 🔹 Lambda & Functional Interface (람다)
-함수형 프로그래밍 도입과 모던 자바 문법
-
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **[01. Functional Interface](./lambda/Lambda-01-FunctionalInterface.md)** | 람다식과 표준 인터페이스 | Consumer, Supplier, Function, Predicate |
-| **[02. Method Reference](./lambda/Lambda-02-MethodReference.md)** | 메서드 참조와 생성자 참조 | `Class::method`, `new::` |
-| **[03. Custom Lambda](./lambda/Lambda-03-Custom.md)** | 커스텀 인터페이스와 변수 포획 | @FunctionalInterface, Variable Capture |
-
-<br>
-
-### 🔹 Modern Data Utilities (기타 유틸리티)
-실무 필수 도구들 - Comparator, Stream, Optional, Regex
-
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
-| **[01. Comparator & Comparable](./utils/Util-01-Comparator.md)** | 정렬과 비교 기준 | compare, compareTo, thenComparing |
-| **[02. Stream API](./utils/Util-02-Stream.md)** | 데이터 처리 파이프라인 | filter, map, collect, reduce |
-| **[03. Optional](./utils/Util-03-Optional.md)** | Null 안전 처리 | ofNullable, orElse, isPresent |
-| **[04. 정규표현식](./utils/Util-04-Regex.md)** | 텍스트 패턴 매칭 | Pattern, Matcher, regex |
-
-<br>
-
-### 🔹 Concurrency & Multithreading (동시성)
-스레드 기초부터 Java 21 가상 스레드까지 동시성 완전 정복
-
-#### 🟢 기초: 스레드 제어 (Thread Control)
+#### 🔄 Concurrency & Multithreading (동시성)
 | Chapter | 주제 | 핵심 키워드 |
 |:-------:|------|------------|
 | **[01. Thread & Runnable](./concurrency/Concurrency-01-Thread.md)** | 스레드 생성과 생명주기 | Thread, Runnable, sleep, join |
 | **[02. Synchronization](./concurrency/Concurrency-02-Sync.md)** | 동기화와 락(Lock) 제어 | synchronized, volatile, ReentrantLock |
-
-#### 🟡 중급: 스레드 풀과 자료구조 (Executor & Collections)
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
 | **[03. ExecutorService](./concurrency/Concurrency-03-Executor.md)** | 스레드 풀 관리 프레임워크 | ThreadPoolExecutor, submit, shutdown |
 | **[04. Concurrent Collections](./concurrency/Concurrency-04-Concurrent.md)** | 스레드 안전 컬렉션 | ConcurrentHashMap, CopyOnWriteArrayList |
 | **[05. Atomic Variables](./concurrency/Concurrency-05-Atomic.md)** | 락 없는(Lock-free) 동기화 | AtomicInteger, CAS, ABA Problem |
-
-#### 🔴 고급: 비동기와 가상 스레드 (Async & Virtual Threads)
-| Chapter | 주제 | 핵심 키워드 |
-|:-------:|------|------------|
 | **[06. CompletableFuture](./concurrency/Concurrency-06-Future.md)** | 비동기 프로그래밍 패턴 | supplyAsync, thenApply, allOf |
 | **[07. Virtual Threads](./concurrency/Concurrency-07-Virtual.md)** | Java 21 가상 스레드 | Virtual Thread, Structured Concurrency |
 
-<br>
+<br/>
 
 ---
 
