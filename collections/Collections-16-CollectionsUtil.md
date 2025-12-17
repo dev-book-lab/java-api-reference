@@ -712,32 +712,16 @@ Collections.singletonList(element);
 
 ---
 
-## 🎉 Collections 시리즈 완료!
-
 <div align="center">
 
-### 📚 Collections 전체 시리즈
+### 📚 Queue & Util 시리즈
 
-| 회차 | Chapter | 주제 |
-|:----:|:-------:|------|
-| **1회차** | [01. Collections 개요](./Collections-01-Overview.md) | Framework 소개 |
-| | [02. ArrayList](./Collections-02-ArrayList.md) | 동적 배열 |
-| | [03. LinkedList](./Collections-03-LinkedList.md) | 연결 리스트 |
-| | [04. List 비교](./Collections-04-ListComparison.md) | 성능 분석 |
-| **2회차** | [05. HashSet](./Collections-05-HashSet.md) | 해시 집합 |
-| | [06. LinkedHashSet](./Collections-06-LinkedHashSet.md) | 순서 유지 집합 |
-| | [07. TreeSet](./Collections-07-TreeSet.md) | 정렬 집합 |
-| | [08. Set 비교](./Collections-08-SetComparison.md) | 성능 분석 |
-| **3회차** | [09. HashMap](./Collections-09-HashMap.md) | 해시 맵 |
-| | [10. LinkedHashMap](./Collections-10-LinkedHashMap.md) | 순서 유지 맵 |
-| | [11. TreeMap](./Collections-11-TreeMap.md) | 정렬 맵 |
-| | [12. Map 비교](./Collections-12-MapComparison.md) | 성능 분석 |
-| **4회차** | [13. Queue & Deque](./Collections-13-QueueDeque.md) | 큐와 덱 |
-| | [14. PriorityQueue](./Collections-14-PriorityQueue.md) | 우선순위 큐 |
-| | [15. Stack](./Collections-15-Stack.md) | 스택 구현 |
-| | [16. Collections 유틸](./Collections-16-CollectionsUtil.md) ⭐ | 유틸리티 |
-
-**총 16개 완성!**
+| Chapter | 주제 |
+|:-------:|------|
+| [13. Queue & Deque](./Collections-13-QueueDeque.md) | 큐와 덱 |
+| [14. PriorityQueue](./Collections-14-PriorityQueue.md) | 우선순위 큐 |
+| [15. Stack](./Collections-15-Stack.md) | 스택 구현 |
+| [16. Collections 유틸](./Collections-16-CollectionsUtil.md) | 유틸리티 |
 
 </div>
 
