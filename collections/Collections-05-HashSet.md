@@ -721,33 +721,40 @@ public class Problem1 {
 
 ```java
 public class Problem1 {
-    public static Set<Integer> union(int[] arr1, int[] arr2) {
+
+    // 도우미 메서드: int[] -> Set<Integer> 변환
+    // (기본형 배열은 Arrays.asList나 Set.of가 바로 안 먹혀서 필요함)
+    private static Set<Integer> toSet(int[] arr) {
         Set<Integer> set = new HashSet<>();
-        for (int n : arr1) set.add(n);
-        for (int n : arr2) set.add(n);
+        for (int n : arr) {
+            set.add(n);
+        }
         return set;
     }
-    
-    public static Set<Integer> intersection(int[] arr1, int[] arr2) {
-        Set<Integer> set1 = new HashSet<>();
-        for (int n : arr1) set1.add(n);
-        
-        Set<Integer> result = new HashSet<>();
-        for (int n : arr2) {
-            if (set1.contains(n)) {
-                result.add(n);
-            }
-        }
-        return result;
+
+    // 1. 합집합 (Union): A + B
+    public static Set<Integer> union(int[] arr1, int[] arr2) {
+        Set<Integer> set1 = toSet(arr1);
+        Set<Integer> set2 = toSet(arr2);
+
+        set1.addAll(set2);
+        return set1;
     }
-    
+
+    // 2. 교집합 (Intersection): A ∩ B
+    public static Set<Integer> intersection(int[] arr1, int[] arr2) {
+        Set<Integer> set1 = toSet(arr1);
+        Set<Integer> set2 = toSet(arr2);
+
+        set1.retainAll(set2);
+        return set1;
+    }
+
+    // 3. 차집합 (Difference): A - B
     public static Set<Integer> difference(int[] arr1, int[] arr2) {
-        Set<Integer> set1 = new HashSet<>();
-        for (int n : arr1) set1.add(n);
-        
-        Set<Integer> set2 = new HashSet<>();
-        for (int n : arr2) set2.add(n);
-        
+        Set<Integer> set1 = toSet(arr1);
+        Set<Integer> set2 = toSet(arr2);
+
         set1.removeAll(set2);
         return set1;
     }
