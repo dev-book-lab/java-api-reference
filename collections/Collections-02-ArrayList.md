@@ -776,12 +776,14 @@ public class Problem2 {
         }
         return result;
     }
-    
-    // 방법 3: Stream
+
+    // 방법 3: Stream (인덱스 활용)
     public static List<Integer> reverse3(List<Integer> list) {
-        List<Integer> result = new ArrayList<>(list);
-        Collections.reverse(result);
-        return result;
+        int size = list.size();
+        return IntStream.range(0, size)              
+                .map(i -> size - 1 - i)              
+                .mapToObj(list::get)                 
+                .collect(Collectors.toList());       
     }
 }
 ```
