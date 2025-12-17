@@ -167,10 +167,10 @@ Java 입출력의 모든 것 - 파일 제어부터 텍스트/바이너리 처리
 
 실무 필수 도구들
 
-- [Comparator & Comparable](./utils/Comparator.md) *(예정)*
-- [Optional](./utils/Optional.md) *(예정)*
-- [Stream API](./utils/Stream.md) *(예정)*
-- [정규표현식](./utils/Regex.md) *(예정)*
+- **[Comparator & Comparable](./utils/Util-01-Comparator.md)**
+- **[Optional](./utils/Util-02-Optional.md)**
+- **[Stream API](./utils/Util-03-Stream.md)**
+- **[정규표현식](./utils/Util-04-Regex.md)**
 
 ---
 
