@@ -165,14 +165,17 @@ Java 입출력의 모든 것 - 파일 제어부터 텍스트/바이너리 처리
 
 ### 🔹 기타 유틸리티
 
-실무 필수 도구들
+실무 필수 도구들 - Comparator, Stream, Optional, Regex
 
-- **[Comparator & Comparable](./utils/Util-01-Comparator.md)**
-- **[Optional](./utils/Util-02-Optional.md)**
-- **[Stream API](./utils/Util-03-Stream.md)**
-- **[정규표현식](./utils/Util-04-Regex.md)**
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **01. [Comparator & Comparable](./utils/Util-01-Comparator.md)** | 정렬과 비교 기준 | compare, compareTo, thenComparing |
+| **02. [Stream API](./utils/Util-02-Stream.md)** | 데이터 처리 파이프라인 | filter, map, collect, reduce |
+| **03. [Optional](./utils/Util-03-Optional.md)** | Null 안전 처리 | ofNullable, orElse, isPresent |
+| **04. [정규표현식](./utils/Util-04-Regex.md)** | 텍스트 패턴 매칭 | Pattern, Matcher, regex |
 
 ---
+
 
 ## 🎓 학습 방법
 
