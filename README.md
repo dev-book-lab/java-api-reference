@@ -86,10 +86,10 @@
 - 12. **[Map 비교와 선택](./collections/Collections-12-MapComparison.md)**
 
 **📤 Queue & Stack**
-- 13. **[Queue & Deque](./collections/Collections-13-Queue-Deque.md)**
+- 13. **[Queue & Deque](./collections/Collections-13-QueueDeque.md)**
 - 14. **[PriorityQueue](./collections/Collections-14-PriorityQueue.md)**
 - 15. **[Stack](./collections/Collections-15-Stack.md)**
-- 16. **[Collections 유틸](./collections/Collections-16-Utils.md)**
+- 16. **[Collections 유틸](./collections/Collections-16-CollectionsUtil.md)**
 
 </td>
 </tr>
