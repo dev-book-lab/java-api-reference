@@ -14,6 +14,9 @@
 <br/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-dev--book--lab-181717?style=flat-square&logo=github)](https://github.com/dev-book-lab)
+[![Java](https://img.shields.io/badge/Java-8%2B-orange?style=flat-square&logo=openjdk)](https://www.java.com)
+[![Docs](https://img.shields.io/badge/Docs-69개-blue?style=flat-square&logo=readthedocs&logoColor=white)](./README.md)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=opensourceinitiative&logoColor=white)](./LICENSE)
 
 </div>
 
@@ -210,6 +213,184 @@ Java 8부터 최신 버전(Java 21)까지의 문법과 데이터 처리 기법�
 
 ---
 
+## 🗺️ 학습 로드맵
+
+### 🎯 목적별 학습 경로
+
+<details>
+<summary><b>📘 입문자 (Java 처음 배우는 분)</b></summary>
+
+<br/>
+
+**1주차: 기초 다지기**
+```
+Day 1-2: String 01-04 (기본 개념, 생성, 검색, 변환)
+Day 3-4: Arrays 01-02 (배열 기본, 정렬)
+Day 5-7: Math 01-02 + Exception 01
+```
+
+**2주차: 자료구조 입문**
+```
+Day 1-2: Collections 01 (개요) + 02 (ArrayList)
+Day 3-4: Collections 03-04 (LinkedList, List 비교)
+Day 5-7: Collections 05-06 (HashSet, LinkedHashSet)
+```
+
+**3주차: 타입 안전성**
+```
+Day 1-3: Exception 02-03 (커스텀 예외, Best Practices)
+Day 4-5: Generics 01-02
+Day 6-7: Enum 01-02
+```
+
+**4주차: Modern Java 시작**
+```
+Day 1-3: Lambda 01-03
+Day 4-5: Util 02 (Stream API)
+Day 6-7: Util 03 (Optional)
+```
+
+</details>
+
+<details>
+<summary><b>💼 실무자 (업무에 바로 적용)</b></summary>
+
+<br/>
+
+**Week 1: 핵심 자료구조 마스터**
+```
+Collections 전체 집중
+- ArrayList vs LinkedList 성능 비교
+- HashMap 내부 구조 이해
+- ConcurrentHashMap 실전 활용
+```
+
+**Week 2: 날짜/시간 & 파일 처리**
+```
+DateTime 01-06 (전체)
+IO 01-03 (파일 입출력)
+Exception Best Practices
+```
+
+**Week 3: 함수형 프로그래밍**
+```
+Lambda 01-03
+Stream API 완전 정복
+Optional로 null 안전 처리
+Comparator 고급 활용
+```
+
+**Week 4: 동시성 & 성능 최적화**
+```
+Concurrency 01-04
+- Thread Pool 설계
+- 동기화 문제 해결
+- Concurrent Collections
+```
+
+</details>
+
+<details>
+<summary><b>🏆 코딩테스트 준비</b></summary>
+
+<br/>
+
+**우선순위 1 (필수):**
+```
+✅ String 전체 (7개) - 문자열 조작 완벽
+✅ Arrays 전체 (6개) - 정렬, 검색, 이진탐색
+✅ Collections 04, 08, 12 - List/Set/Map 비교
+✅ Math 01 - 수학 함수
+```
+
+**우선순위 2 (중요):**
+```
+✅ Collections 02, 05, 09 - ArrayList, HashSet, HashMap
+✅ Collections 13-14 - Queue, PriorityQueue, Stack
+✅ Util 01 - Comparator & Comparable
+✅ Util 02 - Stream API 기본
+```
+
+**우선순위 3 (심화):**
+```
+✅ String 07 - 실전 패턴 (팰린드롬, 파싱)
+✅ Arrays 06 - 다차원 배열
+✅ Collections 07, 11 - TreeSet, TreeMap
+✅ Util 04 - 정규표현식
+```
+
+**추천 학습 순서:**
+```
+String → Arrays → Collections (List, Set, Map) 
+→ Queue/Stack → Comparator → Stream 기본
+```
+
+</details>
+
+<details>
+<summary><b>🚀 Modern Java 마스터 (Java 17-21)</b></summary>
+
+<br/>
+
+**Phase 1: 기본기 확인**
+```
+Lambda 01-03 (람다 & 함수형 인터페이스)
+Stream API (데이터 처리 파이프라인)
+Optional (null 안전 처리)
+```
+
+**Phase 2: Modern Features**
+```
+✅ Record - 불변 데이터 클래스 (Java 16+)
+✅ Switch Expression - 향상된 분기 (Java 14+)
+✅ Sealed Class - 상속 제어 (Java 17+)
+```
+
+**Phase 3: 최신 동시성**
+```
+✅ Virtual Threads (Java 21+)
+✅ Structured Concurrency
+✅ CompletableFuture 고급 패턴
+```
+
+**Phase 4: 고급 활용**
+```
+Pattern Matching (Type Patterns)
+Text Blocks
+var (Local Variable Type Inference)
+```
+
+</details>
+
+<details>
+<summary><b>⚡ 빠른 복습 (경력 개발자)</b></summary>
+
+<br/>
+
+**Day 1: 핵심만 빠르게**
+```
+- String 07 (실전 패턴)
+- Collections 04, 08, 12 (비교 문서)
+- Util 02 (Stream API)
+```
+
+**Day 2: Modern Java**
+```
+- Lambda 전체
+- Modern Java 01-03 (Record, Switch, Sealed)
+- Concurrency 06 (CompletableFuture)
+```
+
+**Day 3: 심화**
+```
+- Concurrency 07 (Virtual Threads)
+- Reflection 전체
+- Exception 03 (Best Practices)
+```
+
+</details>
+
+---
 
 ## 🎓 학습 방법
 
