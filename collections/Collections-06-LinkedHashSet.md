@@ -739,35 +739,21 @@ public class Problem3 {
 public class Problem3 {
     static class Playlist {
         private Set<String> songs;
-        
+
         public Playlist() {
             this.songs = new LinkedHashSet<>();
         }
-        
+
         public void addSong(String song) {
-            if (songs.add(song)) {
-                System.out.println("추가: " + song);
-            } else {
-                System.out.println("이미 있음: " + song);
-            }
+            songs.add(song);
         }
-        
+
         public void removeSong(String song) {
-            if (songs.remove(song)) {
-                System.out.println("삭제: " + song);
-            }
+            songs.remove(song);
         }
-        
+
         public void play() {
-            System.out.println("\n=== 재생 순서 ===");
-            int index = 1;
-            for (String song : songs) {
-                System.out.println(index++ + ". " + song);
-            }
-        }
-        
-        public int size() {
-            return songs.size();
+            System.out.println(String.join(", ", songs));
         }
     }
 }
