@@ -74,8 +74,8 @@
 
 <br/>
 
-### 🔹 2. 타입 안전성과 객체지향 (Type Safety)
-자료구조를 배우기 전 필수적인 타입 시스템을 익힙니다.
+### 🔹 2. 타입 안전성과 예외 처리 (Type Safety & Error Handling)
+자료구조를 배우기 전, 안전한 설계를 위한 필수 도구들을 익힙니다.
 
 #### 🛡️ Generics (제네릭)
 | Chapter | 주제 | 핵심 키워드 |
@@ -89,6 +89,13 @@
 | **[01. Enum Basic](./enum/Enum-01-Basic.md)** | 열거형 기초와 특징 | enum, values(), valueOf() |
 | **[02. Enum Advanced](./enum/Enum-02-Advanced.md)** | 상수별 동작 구현과 싱글톤 | abstract method, Singleton Pattern |
 | **[03. Enum Patterns](./enum/Enum-03-Patterns.md)** | 실전 활용 패턴과 최적화 | Strategy Pattern, EnumMap, EnumSet |
+
+#### ⚠️ Exception (예외 처리)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **[01. Exception Basic](./exception/Exception-01-Basic.md)** | 예외 계층 구조와 처리 | try-catch, Checked vs Unchecked |
+| **[02. Custom Exception](./exception/Exception-02-Custom.md)** | 사용자 정의 예외 설계 | Domain Exception, Exception Chain |
+| **[03. Best Practices](./exception/Exception-03-Best.md)** | 실무 예외 처리 패턴 | Logging, Fail-Fast, Anti-Patterns |
 
 <br/>
 
@@ -130,7 +137,7 @@ List, Set, Map, Queue의 모든 것을 다룹니다.
 <br/>
 
 ### 🔹 4. 모던 자바와 데이터 처리 (Modern Java)
-Java 8 이후 도입된 함수형 프로그래밍과 데이터 처리 기법입니다.
+Java 8부터 최신 버전(Java 21)까지의 문법과 데이터 처리 기법입니다.
 
 #### 🚀 Lambda & Functional Interface (람다)
 | Chapter | 주제 | 핵심 키워드 |
@@ -138,6 +145,13 @@ Java 8 이후 도입된 함수형 프로그래밍과 데이터 처리 기법입�
 | **[01. Functional Interface](./lambda/Lambda-01-FunctionalInterface.md)** | 람다식과 표준 인터페이스 | Consumer, Supplier, Function, Predicate |
 | **[02. Method Reference](./lambda/Lambda-02-MethodReference.md)** | 메서드 참조와 생성자 참조 | `Class::method`, `new::` |
 | **[03. Custom Lambda](./lambda/Lambda-03-Custom.md)** | 커스텀 인터페이스와 변수 포획 | @FunctionalInterface, Variable Capture |
+
+#### ✨ Modern Java Features (Java 9~21)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **[01. Record](./modern-java/ModernJava-01-Record.md)** | 불변 데이터 클래스 | record, Compact Constructor, DTO |
+| **[02. Switch Expression](./modern-java/ModernJava-02-Switch.md)** | 향상된 분기 처리 | arrow syntax, yield, Pattern Matching |
+| **[03. Sealed Class](./modern-java/ModernJava-03-Sealed.md)** | 상속 제한 및 계층 제어 | sealed, permits, non-sealed |
 
 #### 🛠️ Modern Data Utilities (Stream & Optional)
 | Chapter | 주제 | 핵심 키워드 |
@@ -172,7 +186,14 @@ Java 8 이후 도입된 함수형 프로그래밍과 데이터 처리 기법입�
 <br/>
 
 ### 🔹 6. 심화 학습 (Advanced)
-가장 난이도가 높고 주의가 필요한 동시성 프로그래밍입니다.
+가장 난이도가 높고 주의가 필요한 메타 프로그래밍과 동시성입니다.
+
+#### 🪞 Reflection (리플렉션)
+| Chapter | 주제 | 핵심 키워드 |
+|:-------:|------|------------|
+| **[01. Reflection Basic](./reflection/Reflection-01-Basic.md)** | 런타임 클래스 정보 조작 | Class, Method, Field, Constructor |
+| **[02. Annotation](./reflection/Reflection-02-Annotation.md)** | 메타데이터 활용 | @Target, @Retention, @Repeatable |
+| **[03. Advanced](./reflection/Reflection-03-Advanced.md)** | 프록시 및 고급 기법 | Dynamic Proxy, MethodHandle, Performance |
 
 #### 🔄 Concurrency & Multithreading (동시성)
 | Chapter | 주제 | 핵심 키워드 |
