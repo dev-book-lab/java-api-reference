@@ -224,30 +224,30 @@ Java 8부터 최신 버전(Java 21)까지의 문법과 데이터 처리 기법�
 
 **1주차: 기초 다지기**
 ```
-Day 1-2: String 01-04 (기본 개념, 생성, 검색, 변환)
-Day 3-4: Arrays 01-02 (배열 기본, 정렬)
-Day 5-7: Math 01-02 + Exception 01
+✅ Day 1-2: String 01-04 (기본 개념, 생성, 검색, 변환)
+✅ Day 3-4: Arrays 01-02 (배열 기본, 정렬)
+✅ Day 5-7: Math 01-02 + Exception 01
 ```
 
 **2주차: 자료구조 입문**
 ```
-Day 1-2: Collections 01 (개요) + 02 (ArrayList)
-Day 3-4: Collections 03-04 (LinkedList, List 비교)
-Day 5-7: Collections 05-06 (HashSet, LinkedHashSet)
+✅ Day 1-2: Collections 01 (개요) + 02 (ArrayList)
+✅ Day 3-4: Collections 03-04 (LinkedList, List 비교)
+✅ Day 5-7: Collections 05-06 (HashSet, LinkedHashSet)
 ```
 
 **3주차: 타입 안전성**
 ```
-Day 1-3: Exception 02-03 (커스텀 예외, Best Practices)
-Day 4-5: Generics 01-02
-Day 6-7: Enum 01-02
+✅ Day 1-3: Exception 02-03 (커스텀 예외, Best Practices)
+✅ Day 4-5: Generics 01-02
+✅ Day 6-7: Enum 01-02
 ```
 
 **4주차: Modern Java 시작**
 ```
-Day 1-3: Lambda 01-03
-Day 4-5: Util 02 (Stream API)
-Day 6-7: Util 03 (Optional)
+✅ Day 1-3: Lambda 01-03
+✅ Day 4-5: Util 02 (Stream API)
+✅ Day 6-7: Util 03 (Optional)
 ```
 
 </details>
@@ -259,33 +259,33 @@ Day 6-7: Util 03 (Optional)
 
 **Week 1: 핵심 자료구조 마스터**
 ```
-Collections 전체 집중
-- ArrayList vs LinkedList 성능 비교
-- HashMap 내부 구조 이해
-- ConcurrentHashMap 실전 활용
+✅ Collections 전체 집중
+✅ ArrayList vs LinkedList 성능 비교
+✅ HashMap 내부 구조 이해
+✅ ConcurrentHashMap 실전 활용
 ```
 
 **Week 2: 날짜/시간 & 파일 처리**
 ```
-DateTime 01-06 (전체)
-IO 01-03 (파일 입출력)
-Exception Best Practices
+✅ DateTime 01-06 (전체)
+✅ IO 01-03 (파일 입출력)
+✅ Exception Best Practices
 ```
 
 **Week 3: 함수형 프로그래밍**
 ```
-Lambda 01-03
-Stream API 완전 정복
-Optional로 null 안전 처리
-Comparator 고급 활용
+✅ Lambda 01-03
+✅ Stream API 완전 정복
+✅ Optional로 null 안전 처리
+✅ Comparator 고급 활용
 ```
 
 **Week 4: 동시성 & 성능 최적화**
 ```
-Concurrency 01-04
-- Thread Pool 설계
-- 동기화 문제 해결
-- Concurrent Collections
+✅ Concurrency 01-04
+✅ Thread Pool 설계
+✅ 동기화 문제 해결
+✅ Concurrent Collections
 ```
 
 </details>
@@ -334,9 +334,9 @@ String → Arrays → Collections (List, Set, Map)
 
 **Phase 1: 기본기 확인**
 ```
-Lambda 01-03 (람다 & 함수형 인터페이스)
-Stream API (데이터 처리 파이프라인)
-Optional (null 안전 처리)
+✅ Lambda 01-03 (람다 & 함수형 인터페이스)
+✅ Stream API (데이터 처리 파이프라인)
+✅ Optional (null 안전 처리)
 ```
 
 **Phase 2: Modern Features**
@@ -355,9 +355,9 @@ Optional (null 안전 처리)
 
 **Phase 4: 고급 활용**
 ```
-Pattern Matching (Type Patterns)
-Text Blocks
-var (Local Variable Type Inference)
+✅ Pattern Matching (Type Patterns)
+✅ Text Blocks
+✅ var (Local Variable Type Inference)
 ```
 
 </details>
@@ -369,23 +369,23 @@ var (Local Variable Type Inference)
 
 **Day 1: 핵심만 빠르게**
 ```
-- String 07 (실전 패턴)
-- Collections 04, 08, 12 (비교 문서)
-- Util 02 (Stream API)
+✅ String 07 (실전 패턴)
+✅ Collections 04, 08, 12 (비교 문서)
+✅ Util 02 (Stream API)
 ```
 
 **Day 2: Modern Java**
 ```
-- Lambda 전체
-- Modern Java 01-03 (Record, Switch, Sealed)
-- Concurrency 06 (CompletableFuture)
+✅ Lambda 전체
+✅ Modern Java 01-03 (Record, Switch, Sealed)
+✅ Concurrency 06 (CompletableFuture)
 ```
 
 **Day 3: 심화**
 ```
-- Concurrency 07 (Virtual Threads)
-- Reflection 전체
-- Exception 03 (Best Practices)
+✅ Concurrency 07 (Virtual Threads)
+✅ Reflection 전체
+✅ Exception 03 (Best Practices)
 ```
 
 </details>
