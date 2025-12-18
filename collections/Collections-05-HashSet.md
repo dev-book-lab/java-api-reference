@@ -689,24 +689,24 @@ public class CommonElements {
 ```java
 // 집합 연산 구현
 public class Problem1 {
-    public static Set<Integer> union(int[] arr1, int[] arr2) {
+    public static Set<Integer> union(Integer[] arr1, Integer[] arr2) {
         // 코드 작성
         return null;
     }
     
-    public static Set<Integer> intersection(int[] arr1, int[] arr2) {
+    public static Set<Integer> intersection(Integer[] arr1, Integer[] arr2) {
         // 코드 작성
         return null;
     }
     
-    public static Set<Integer> difference(int[] arr1, int[] arr2) {
+    public static Set<Integer> difference(Integer[] arr1, Integer[] arr2) {
         // 코드 작성
         return null;
     }
     
     public static void main(String[] args) {
-        int[] arr1 = {1, 2, 3, 4, 5};
-        int[] arr2 = {4, 5, 6, 7, 8};
+        Integer[] arr1 = {1, 2, 3, 4, 5};
+        Integer[] arr2 = {4, 5, 6, 7, 8};
         
         System.out.println("Union: " + union(arr1, arr2));
         System.out.println("Intersection: " + intersection(arr1, arr2));
@@ -722,38 +722,28 @@ public class Problem1 {
 ```java
 public class Problem1 {
 
-    // 도우미 메서드: int[] -> Set<Integer> 변환
-    // (기본형 배열은 Arrays.asList나 Set.of가 바로 안 먹혀서 필요함)
-    private static Set<Integer> toSet(int[] arr) {
-        Set<Integer> set = new HashSet<>();
-        for (int n : arr) {
-            set.add(n);
-        }
-        return set;
-    }
-
     // 1. 합집합 (Union): A + B
-    public static Set<Integer> union(int[] arr1, int[] arr2) {
-        Set<Integer> set1 = toSet(arr1);
-        Set<Integer> set2 = toSet(arr2);
+    public static Set<Integer> union(Integer[] arr1, Integer[] arr2) {
+        Set<Integer> set1 = new HashSet<>(List.of(arr1));
+        Set<Integer> set2 = new HashSet<>(List.of(arr2));
 
         set1.addAll(set2);
         return set1;
     }
 
     // 2. 교집합 (Intersection): A ∩ B
-    public static Set<Integer> intersection(int[] arr1, int[] arr2) {
-        Set<Integer> set1 = toSet(arr1);
-        Set<Integer> set2 = toSet(arr2);
+    public static Set<Integer> intersection(Integer[] arr1, Integer[] arr2) {
+        Set<Integer> set1 = new HashSet<>(List.of(arr1));
+        Set<Integer> set2 = new HashSet<>(List.of(arr2));
 
         set1.retainAll(set2);
         return set1;
     }
 
     // 3. 차집합 (Difference): A - B
-    public static Set<Integer> difference(int[] arr1, int[] arr2) {
-        Set<Integer> set1 = toSet(arr1);
-        Set<Integer> set2 = toSet(arr2);
+    public static Set<Integer> difference(Integer[] arr1, Integer[] arr2) {
+        Set<Integer> set1 = new HashSet<>(List.of(arr1));
+        Set<Integer> set2 = new HashSet<>(List.of(arr2));
 
         set1.removeAll(set2);
         return set1;
